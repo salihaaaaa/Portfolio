@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./styles/globals.css";
+import { crimson_Pro } from '@/app/components/fonts';
 import DesktopNav from "./components/DesktopNav";
 import MobileNav from "./components/MobileNav";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Salihah",
@@ -18,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${crimson_Pro.className} antialiased`}>
         <div className="md:container md:mx-auto border border-slate-200 h-screen">
           <DesktopNav></DesktopNav>
           <MobileNav></MobileNav>
