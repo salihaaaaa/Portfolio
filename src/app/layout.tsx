@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./styles/globals.css";
-import { crimson_Pro } from '@/app/components/fonts';
+import { crimson_Pro } from "@/app/components/fonts";
 import DesktopNav from "./components/DesktopNav";
 import MobileNav from "./components/MobileNav";
 
