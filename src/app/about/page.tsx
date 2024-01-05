@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row justify-between p-5">
       <div className=" p-2 md:p-10">
-        <h1 className={`${crimson_Pro.className} text-4xl font-bold italic`}>
+        <h1 className="text-4xl font-bold italic">
           Hello! <span className="block mt-1 md:mt-2">I am Salihah</span>{" "}
         </h1>
         <p className="mt-4 text-xl text-justify">
