@@ -5,8 +5,8 @@ const page = () => {
   return (
     <div className="p-5 md:p-10">
       <h2 className="text-3xl font-bold p-2 italic">Projects</h2>
-      <div className="p-1 md:p-5 flex flex-wrap flex-row md:flex-col">
-        <div className="m-2 p-2 shadow-md rounded">
+      <div className="md:p-5 flex flex-wrap flex-row md:flex-col">
+        <div className="m-1 p-2 shadow-md rounded">
           <h3 className="text-2xl italic font-semibold mb-4">Portfolio</h3>
           <p className="mb-4 text-justify">
             A portfolio website that reflects my journey in self-learning.
@@ -25,7 +25,7 @@ const page = () => {
           </Link>
           <Link href="https://salihah.vercel.app/">Demo</Link>
         </div>
-        <div className="m-2 p-2 shadow-md rounded">
+        <div className="m-1 p-2 shadow-md rounded">
           <h3 className="text-2xl italic font-semibold mb-4">
             Leave Management System
           </h3>
