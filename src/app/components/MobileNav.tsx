@@ -10,7 +10,7 @@ const MobileNav = () => {
   };
 
   return (
-    <div className="md:hidden p-2 pr-7 mt-7 m-2 text-lg flex flex-row-reverse items-start">
+    <div className="md:hidden p-2 pr-7 mt-7 text-lg flex flex-row-reverse items-start">
 
         {/* Change menu button -> icon */}
       <button onClick={toggleMenu}>|||</button>             
