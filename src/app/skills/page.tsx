@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="p-2 md:p-10">
+    <div className="p-5 md:p-10">
       <h2 className="text-3xl font-bold p-2 italic">Skills</h2>
-      <div className="p-2 md:p-5 flex flex-wrap flex-row justify-start items-center space-x-10">
+      <div className="p-1 md:p-5 flex flex-wrap flex-row justify-start items-center space-x-10">
         <Image
           src="/react.png"
           alt={"React icon"}

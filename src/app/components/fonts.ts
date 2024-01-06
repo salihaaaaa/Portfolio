@@ -3,7 +3,7 @@ import { Inter, Crimson_Pro, Josefin_Sans } from 'next/font/google';
 //export const inter = Inter({ subsets: ['latin'] });
 
 export const crimson_Pro = Crimson_Pro({
-    weight: ['400', '700'],
+    weight: ['400', '600', '700'],
     style: ['normal', 'italic'],
     subsets: ['latin'],
   });
