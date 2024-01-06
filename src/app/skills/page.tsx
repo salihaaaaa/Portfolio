@@ -1,38 +1,35 @@
 import React from "react";
-import { josefin_Sans } from "../components/fonts";
+import Image from "next/image";
 
 const page = () => {
   return (
     <div className="p-2 md:p-10">
-      <h2 className="text-2xl font-bold p-2 italic">
-        Skills
-      </h2>
-      <div className="flex flex-wrap flex-col md:flex-row justify-between p-1">
-        <div
-          className={`${josefin_Sans.className} m-1 p-2 text-lg rounded shadow-md`}
-        >
-          Front-End Development
-        </div>
-        <div
-          className={`${josefin_Sans.className} m-1 p-2 text-lg rounded shadow-md`}
-        >
-          Back-End Development
-        </div>
-        <div
-          className={`${josefin_Sans.className} m-1 p-2 text-lg rounded shadow-md`}
-        >
-          Version Control
-        </div>
-        <div
-          className={`${josefin_Sans.className} m-1 p-2 text-lg rounded shadow-md`}
-        >
-          Development Tools
-        </div>
-        <div
-          className={`${josefin_Sans.className} m-1 p-2 text-lg rounded shadow-md`}
-        >
-          Testing
-        </div>
+      <h2 className="text-3xl font-bold p-2 italic">Skills</h2>
+      <div className="p-2 md:p-5 flex flex-row items-center space-x-10">
+        <Image
+          src="/react.png"
+          alt={"React icon"}
+          width={64}
+          height={64}
+        ></Image>
+        <Image
+          src="/nextjs.png"
+          alt={"Nextjs icon"}
+          width={64}
+          height={64}
+        ></Image>
+        <Image
+          src="/tailwind.png"
+          alt={"Tailwind icon"}
+          width={64}
+          height={64}
+        ></Image>
+        <Image
+          src="/vercel.png"
+          alt={"Vercel icon"}
+          width={64}
+          height={64}
+        ></Image>
       </div>
     </div>
   );
