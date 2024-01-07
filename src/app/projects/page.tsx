@@ -3,7 +3,7 @@ import portfolioData from "../lib/portfolio-data";
 import CustomLink from "../components/CustomLink";
 
 const Project = () => {
-  const projects  = portfolioData.projects;
+  const projects = portfolioData.projects;
 
   return (
     <div className="p-2 md:p-10">
@@ -15,9 +15,6 @@ const Project = () => {
               {project.title}
             </h3>
             <p className="mb-4 text-justify">{project.description}</p>
-            <p className="mb-4">{project.technologies}
-              
-            </p>
             <CustomLink href="https://github.com/salihaaaaa/portfolio.git">
               Github
             </CustomLink>

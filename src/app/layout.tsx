@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${crimson_Pro.className} antialiased`}>
-        <div className="md:container md:mx-auto border border-slate-200 h-full">
+        <div className="md:container md:mx-auto border border-slate-200 text-slate-600 h-full">
           <DesktopNav></DesktopNav>
           <MobileNav></MobileNav>
           <div className="p-2 md:m-2">{children}</div>

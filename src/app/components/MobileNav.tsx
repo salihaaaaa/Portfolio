@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
+import CustomLink from "./CustomLink";
 
 const MobileNav = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -16,15 +16,10 @@ const MobileNav = () => {
       <button onClick={toggleMenu}>|||</button>             
       {isMenuOpen && (
         <nav className="w-full space-y-4 flex flex-col items-start">
-          <Link href="/about" className="hover:text-teal-500">
-            About
-          </Link>
-          <Link href="/skills" className="hover:text-teal-500">
-            Skills
-          </Link>
-          <Link href="/projects" className="hover:text-teal-500">
-            Projects
-          </Link>
+          <CustomLink href="/">Home</CustomLink>
+      <CustomLink href="/about">About</CustomLink>
+      <CustomLink href="/skills">Skills</CustomLink>
+      <CustomLink href="/projects">Projects</CustomLink>
         </nav>
       )}
       
