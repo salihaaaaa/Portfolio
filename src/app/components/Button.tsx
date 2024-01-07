@@ -6,7 +6,7 @@ interface ButtonProps {
 
 const Button:React.FC<ButtonProps> = ({children}) => {
   return (
-    <p className="bg-slate-100 rounded p-3 m-1 shadow-md">{children}</p>
+    <p className="bg-slate-100 rounded-full p-3 m-1 shadow-md">{children}</p>
   );
 };
 
