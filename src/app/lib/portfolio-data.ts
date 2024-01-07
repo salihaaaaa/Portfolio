@@ -4,7 +4,7 @@ const portfolioData: PortfolioData = {
   about: {
     name: 'Salihah',
     bio: 'A passionate developer with expertise in web technologies.',
-    imageUrl: '/images/profile.jpg',
+    imageUrl: '/gambar.jpg',
   },
   skills: [
     {
