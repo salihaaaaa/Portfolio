@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import ButtonLink from "../components/ButtonLink";
 
 const Project = () => {
   return (
@@ -16,14 +17,13 @@ const Project = () => {
             dynamic and responsive web applications while creating an
             interactive space for presenting my achievements and capabilities.
           </p>
-          <p>Technologies: Typescript, Next.js, TailwindCSS, Vercel</p>
-          <Link
-            href="https://github.com/salihaaaaa/portfolio.git"
-            className="mt-4 block"
-          >
+          <p className="mb-4">
+            Technologies: Typescript, Next.js, TailwindCSS, Vercel
+          </p>
+          <ButtonLink href="https://github.com/salihaaaaa/portfolio.git">
             Github
-          </Link>
-          <Link href="https://salihah.vercel.app/">Demo</Link>
+          </ButtonLink>
+          <ButtonLink href="https://salihah.vercel.app/">Demo</ButtonLink>
         </div>
         <div className="m-1 p-3 shadow-md rounded">
           <h3 className="text-2xl italic font-semibold mb-4">
@@ -56,9 +56,9 @@ const Project = () => {
             </span>
           </p>
           <p className="mb-4">Technologies: C#, ASP.NET Core, Web API</p>
-          <Link href="https://github.com/salihaaaaa/LeaveSystem.git">
+          <ButtonLink href="https://github.com/salihaaaaa/LeaveSystem.git">
             Github
-          </Link>
+          </ButtonLink>
         </div>
       </div>
     </div>
