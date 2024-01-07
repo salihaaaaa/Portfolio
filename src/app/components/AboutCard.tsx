@@ -15,8 +15,8 @@ const AboutCard: React.FC<AboutCardProps> = ({ about }) => {
         <Image
           src={imageUrl}
           alt={name}
-          width={56}
-          height={56}
+          width={144}
+          height={144}
           className="rounded-full md:mr-10 bg-slate-300"
         />
       </div>

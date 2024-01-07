@@ -5,7 +5,7 @@ const portfolioData: PortfolioData = {
     name: 'Salihah',
     role: 'A passionate developer with expertise in web technologies.',
     bio: "Hi! I'm Salihah, a passionate web developer based in Malaysia. I specialize in frontend technologies and have experience working with various programming languages and tools. I have a keen interest in building side projects for fun, exploring new technologies, and pushing the boundaries of what's possible on the web. As a continuous learner, I enjoy staying up-to-date with the latest trends in web development.",
-    imageUrl: '/gambar.jpg',
+    imageUrl: '/salihah.jpg',
   },
   skills: [
     {
