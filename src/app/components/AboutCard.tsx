@@ -22,7 +22,7 @@ const AboutCard: React.FC<AboutCardProps> = ({ about }) => {
       <div className="text-center space-y-2 sm:text-left">
         <div className="space-y-0.5">
           <p className="text-lg text-black font-semibold">{name}</p>
-          <p className="text-slate-500 font-medium">{bio}</p>
+          <p className="font-medium">{bio}</p>
         </div>
       </div>
     </div>
