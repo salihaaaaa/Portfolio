@@ -20,7 +20,7 @@ export default function RootLayout({
         <div className="md:container md:mx-auto border border-slate-200 text-slate-500 h-full">
           <DesktopNav></DesktopNav>
           <MobileNav></MobileNav>
-          <div className="p-2 md:m-2">{children}</div>
+          <div className="md:p-10 md:m-2">{children}</div>
         </div>
       </body>
     </html>
