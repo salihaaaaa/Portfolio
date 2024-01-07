@@ -1,7 +1,13 @@
+import About from "./about/page";
+import Project from "./projects/page";
+import Skill from "./skills/page";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Home page</h1>
-    </div>
+    <>
+      <About></About>
+      <Skill></Skill>
+      <Project></Project>
+    </>
   );
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-const page = () => {
+const Skill = () => {
   return (
-    <div className="p-2 md:p-10">
+    <div className="p-2 md:p-10 mb-2">
       <h2 className="text-3xl font-bold p-2 italic">Skills</h2>
       <div className="md:p-5 flex flex-wrap flex-row justify-start items-center space-x-10">
         <Image
@@ -42,4 +42,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Skill;
