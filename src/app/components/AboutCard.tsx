@@ -10,13 +10,13 @@ const AboutCard: React.FC<AboutCardProps> = ({ about }) => {
   const { name, bio, imageUrl } = about;
 
   return (
-    <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+    <div className="p-8 mb-2 max-w-sm mx-auto rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
       <Image
         src={imageUrl}
         alt={name}
         width={56}
-        height={24}
-        className="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0"
+        height={56}
+        className="block mx-auto rounded-full sm:mx-0 sm:shrink-0 bg-slate-300"
       ></Image>
 
       <div className="text-center space-y-2 sm:text-left">
