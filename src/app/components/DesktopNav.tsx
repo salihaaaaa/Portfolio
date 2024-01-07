@@ -3,7 +3,7 @@ import CustomLink from "./CustomLink";
 
 const DesktopNav = () => {
   return (
-    <nav className="hidden md:flex md:flex-wrap justify-center rounded-full space-x-4 mt-7 font-semibold border w-1/2 mx-auto shadow-md">
+    <nav className="hidden md:flex md:flex-wrap justify-center rounded-full space-x-4 mt-7 border w-1/2 mx-auto shadow-md">
       <CustomLink href="/">Home</CustomLink>
       <CustomLink href="/about">About</CustomLink>
       <CustomLink href="/skills">Skills</CustomLink>

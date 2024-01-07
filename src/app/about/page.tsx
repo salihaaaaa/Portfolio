@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row justify-between p-2 mb-2">
       <div className=" p-2 md:p-10">
-        <h1 className="text-4xl font-bold italic text-teal-500">
+        <h1 className="text-4xl font-bold italic">
           {about.name}
         </h1>
         <p className="mt-4 text-justify md:pl-10">
