@@ -1,42 +1,16 @@
 import React from "react";
-import Image from "next/image";
+import portfolioData from "../lib/portfolio-data";
+import Button from "../components/Button";
 
 const Skill = () => {
+  const skills  = portfolioData.skills;
   return (
     <div className="p-2 md:p-10 mb-2">
       <h2 className="text-3xl font-bold p-2 italic">Skills</h2>
-      <div className="md:p-5 flex flex-wrap flex-row justify-start items-center space-x-10">
-        <Image
-          src="/react.png"
-          alt={"React icon"}
-          width={64}
-          height={64}
-        ></Image>
-        <Image
-          src="/nextjs.png"
-          alt={"Nextjs icon"}
-          width={64}
-          height={64}
-        ></Image>
-        <Image
-          src="/typescript.png"
-          alt={"Typescript icon"}
-          width={64}
-          height={64}
-        ></Image>
-        <Image
-          src="/tailwind.png"
-          alt={"Tailwind icon"}
-          width={64}
-          height={64}
-        ></Image>
-        <Image
-          src="/vercel.png"
-          alt={"Vercel icon"}
-          width={64}
-          height={64}
-        ></Image>
-        <Image src="/git.png" alt={"Git icon"} width={64} height={64}></Image>
+      <div className="md:p-10 flex flex-wrap flex-row justify-between items-start space-x-5">
+        {skills.map((skill) => (
+          <Button key={skill.id}>{skill.name}</Button>
+        ))}
       </div>
     </div>
   );
