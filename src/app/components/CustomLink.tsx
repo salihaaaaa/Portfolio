@@ -8,7 +8,7 @@ interface CustomLinkProps {
 
 const CustomLink: React.FC<CustomLinkProps> = ({ href, children }) => {
   return (
-    <Link href={href} className="text-teal-500 p-2 m-1 text-white">
+    <Link href={href} className="text-teal-500 p-2 m-1">
       {children}
     </Link>
   );
