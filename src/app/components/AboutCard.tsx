@@ -7,7 +7,7 @@ interface AboutCardProps {
 }
 
 const AboutCard: React.FC<AboutCardProps> = ({ about }) => {
-  const { name, role, bio, imageUrl } = about;
+  const { name, role, imageUrl } = about;
 
   return (
     <div className="p-8 mb-2 flex flex-wrap md:flex-nowrap justify-between items-center mt-5">
@@ -26,7 +26,6 @@ const AboutCard: React.FC<AboutCardProps> = ({ about }) => {
           {name}
         </p>
         <p className="font-bold mb-4">{role}</p>
-        <p className="text-justify">{bio}</p>
       </div>
     </div>
   );
