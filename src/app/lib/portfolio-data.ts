@@ -10,52 +10,48 @@ const portfolioData: PortfolioData = {
   skills: [
     {
       id: 1,
-      name: 'React'
+      name: 'Java'
     },
     {
       id: 2,
-      name: 'Next.js'
+      name: 'Spring Boot'
     },
     {
       id: 3,
-      name: 'TypeScript'
+      name: 'PostgreSQL'
     },
     {
       id: 4,
-      name: 'C#'
-    },
-    {
-      id: 5,
-      name: 'ASP.NET Core'
-    },
-    {
-      id: 6,
-      name: 'Entity Framework Core'
-    },
-    {
-      id: 7,
-      name: 'MSSQL'
-    },
-    {
-      id: 8,
-      name: 'Unit Testing'
-    },
-    {
-      id: 9,
       name: 'Postman'
     },
     {
-      id: 10,
+      id: 5,
       name: 'Git'
     },
     {
-      id: 11,
+      id: 6,
       name: 'Vercel'
     },
     {
-      id: 12,
-      name: 'Visual Studio'
-    }
+      id: 7,
+      name: 'Intellij IDEA'
+    },
+    {
+      id: 8,
+      name: 'Visual Studio Code'
+    },
+    {
+      id: 9,
+      name: 'React'
+    },
+    {
+      id: 10,
+      name: 'Next.js'
+    },
+    {
+      id: 11,
+      name: 'TypeScript'
+    },
   ],
   projects: [
     {
