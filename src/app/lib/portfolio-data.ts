@@ -62,7 +62,7 @@ const portfolioData: PortfolioData = {
     },
     {
       id: 2,
-      title: 'Leave Management System',
+      title: 'Employee Management System',
       description: "Explore my Employee Management API project! Developed using Spring Boot and PostgreSQL, this project is dedicated to API functionality, emphasizing CRUD operations for employee data management. The API ensures efficient communication with a PostgreSQL database, allowing for the creation, retrieval, updating, and deletion of employee records. Thoroughly tested using Postman.",
       demoLink: '',
       githubLink: 'https://github.com/salihaaaaa/Employee-Management-System.git',
