@@ -63,9 +63,9 @@ const portfolioData: PortfolioData = {
     {
       id: 2,
       title: 'Leave Management System',
-      description: 'A Leave Management System developed as part of my self-learning journey with ASP.NET Core Web API. This project allowed me to delve into the world of backend development, where I acquired skills in designing robust APIs and implementing features like user authentication and role-based access control. I thoroughly tested the API endpoints using Postman, ensuring its reliability and functionality.',
+      description: "Explore my Employee Management API project! Developed using Spring Boot and PostgreSQL, this project is dedicated to API functionality, emphasizing CRUD operations for employee data management. The API ensures efficient communication with a PostgreSQL database, allowing for the creation, retrieval, updating, and deletion of employee records. Thoroughly tested using Postman.",
       demoLink: '',
-      githubLink: 'https://github.com/salihaaaaa/LeaveSystem.git',
+      githubLink: 'https://github.com/salihaaaaa/Employee-Management-System.git',
     },
   ],
 };
