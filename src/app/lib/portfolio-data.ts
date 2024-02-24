@@ -57,16 +57,15 @@ const portfolioData: PortfolioData = {
       id: 1,
       title: 'Portfolio',
       description: 'A portfolio website that reflects my journey in self-learning. Utilizing the power of Next.js and the simplicity of Tailwind CSS, this website serves as a testament to my dedication to mastering new technologies. Through this project, I honed my skills in building dynamic and responsive web applications while creating an interactive space for presenting my achievements and capabilities.',
-      demoLink: 'https://salihah.vercel.app/',
       githubLink: 'https://github.com/salihaaaaa/portfolio.git',
     },
     {
       id: 2,
-      title: 'Employee Management System',
-      description: "Developed using Spring Boot and PostgreSQL, this project is dedicated to API functionality, emphasizing CRUD operations for employee data management. The API ensures efficient communication with a PostgreSQL database, allowing for the creation, retrieval, updating, and deletion of employee records. Thoroughly tested using Postman.",
-      demoLink: '',
-      githubLink: 'https://github.com/salihaaaaa/Employee-Management-System.git',
-    },
+      title: 'Online Banking System',
+      description: "As a personal project, I developed Online Banking System using Spring Boot and PostgreSQL. The project focuses for managing bank accounts online. I implemented features such as user authentication, account creation, fund transfer, and account close. Thoroughly tested using Postman.",
+      githubLink: 'https://github.com/salihaaaaa/online-banking-system.git',
+    }
+    
   ],
 };
 

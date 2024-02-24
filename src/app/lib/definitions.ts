@@ -13,7 +13,6 @@ export interface About {
     id: number;
     title: string;
     description: string;
-    demoLink: string;
     githubLink: string;
   }
   
