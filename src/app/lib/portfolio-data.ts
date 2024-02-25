@@ -5,7 +5,7 @@ const portfolioData: PortfolioData = {
     name: 'Salihah',
     role: 'Java Developer',
     email: 'salihahzakaria.work@gmail.com',
-    linkedin: 'www.linkedin.com/in/salihahzakaria',
+    linkedin: 'www.linkedin.com/in/salihazakaria',
     github: 'https://github.com/salihaaaaa'
   },
   skills: [
