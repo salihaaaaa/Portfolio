@@ -10,7 +10,7 @@ const AboutCard: React.FC<AboutCardProps> = ({ about }) => {
   const { name, role, email, linkedin, github } = about;
 
   return (
-    <div className="p-8 mb-2 flex flex-wrap md:flex-nowrap justify-between items-center mt-5">
+    <div className="p-8 mb-2 flex flex-wrap md:flex-nowrap justify-between items-center">
       <div className="flex-grow">
         <p className="text-xl md:text-2xl text-black font-semibold mb-4 italic">
           {name}
