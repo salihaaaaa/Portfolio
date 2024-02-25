@@ -7,25 +7,18 @@ interface AboutCardProps {
 }
 
 const AboutCard: React.FC<AboutCardProps> = ({ about }) => {
-  const { name, role, imageUrl } = about;
+  const { name, role, email, linkedin, github } = about;
 
   return (
     <div className="p-8 mb-2 flex flex-wrap md:flex-nowrap justify-between items-center mt-5">
-      <div className="flex-shrink-0 mb-4 md:mb-0">
-        <Image
-          src={imageUrl}
-          alt={name}
-          width={144}
-          height={144}
-          className="rounded-full md:mr-10 bg-slate-300"
-        />
-      </div>
-
       <div className="flex-grow">
         <p className="text-xl md:text-2xl text-black font-semibold mb-4 italic">
           {name}
         </p>
         <p className="font-bold mb-4">{role}</p>
+        <p className="font-bold mb-4">{email}</p>
+        <p className="font-bold mb-4">{linkedin}</p>
+        <p className="font-bold mb-4">{github}</p>
       </div>
     </div>
   );
