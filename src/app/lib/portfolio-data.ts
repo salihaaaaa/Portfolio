@@ -4,7 +4,9 @@ const portfolioData: PortfolioData = {
   about: {
     name: 'Salihah',
     role: 'Java Developer',
-    imageUrl: '/salihah.jpg',
+    email: 'salihahzakaria.work@gmail.com',
+    linkedin: 'www.linkedin.com/in/salihahzakaria',
+    github: 'https://github.com/salihaaaaa'
   },
   skills: [
     {

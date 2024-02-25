@@ -1,7 +1,9 @@
 export interface About {
     name: string;
     role: string;
-    imageUrl: string;
+    email: String;
+    linkedin: String;
+    github: String;
   }
   
   export interface Skill {
