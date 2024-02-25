@@ -12,7 +12,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ projects }) => {
       {projects.map((project) => (
         <div
           key={project.id}
-          className="rounded-xl p-3 mb-2 border border-slate-200 shadow-lg basis-1/3 mr-4"
+          className="rounded-xl p-3 mb-2 border border-slate-200 shadow-lg basis-1/3 mr-4 bg-slate-50"
         >
           <h1 className="font-medium text-slate-700 mb-2 italic">{project.title}</h1>
           <p className="text-justify mb-4">{project.description}</p>
