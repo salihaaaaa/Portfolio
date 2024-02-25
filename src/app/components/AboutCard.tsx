@@ -16,9 +16,9 @@ const AboutCard: React.FC<AboutCardProps> = ({ about }) => {
           {name}
         </p>
         <p className="font-bold mb-4">{role}</p>
-        <p className="font-bold mb-4">{email}</p>
-        <p className="font-bold mb-4">{linkedin}</p>
-        <p className="font-bold mb-4">{github}</p>
+        <p className="mb-2">{email}</p>
+        <p className="mb-2">{linkedin}</p>
+        <p className="mb-2">{github}</p>
       </div>
     </div>
   );
