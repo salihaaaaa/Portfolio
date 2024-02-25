@@ -55,15 +55,15 @@ const portfolioData: PortfolioData = {
   projects: [
     {
       id: 1,
-      title: 'Portfolio',
-      description: 'A portfolio website that reflects my journey in self-learning. Utilizing the power of Next.js and the simplicity of Tailwind CSS, this website serves as a testament to my dedication to mastering new technologies. Through this project, I honed my skills in building dynamic and responsive web applications while creating an interactive space for presenting my achievements and capabilities.',
-      githubLink: 'https://github.com/salihaaaaa/portfolio.git',
+      title: 'Online Banking System',
+      description: "As a personal project, I developed Online Banking System using Spring Boot and PostgreSQL. The project focuses for managing bank accounts online. I implemented features such as user authentication, account creation, fund transfer, and account close. Thoroughly tested using Postman.",
+      githubLink: 'https://github.com/salihaaaaa/online-banking-system.git'
     },
     {
       id: 2,
-      title: 'Online Banking System',
-      description: "As a personal project, I developed Online Banking System using Spring Boot and PostgreSQL. The project focuses for managing bank accounts online. I implemented features such as user authentication, account creation, fund transfer, and account close. Thoroughly tested using Postman.",
-      githubLink: 'https://github.com/salihaaaaa/online-banking-system.git',
+      title: 'Portfolio',
+      description: 'A portfolio website that reflects my journey in self-learning. Utilizing the power of Next.js and the simplicity of Tailwind CSS, this website serves as a testament to my dedication to mastering new technologies. Through this project, I honed my skills in building dynamic and responsive web applications while creating an interactive space for presenting my achievements and capabilities.',
+      githubLink: 'https://github.com/salihaaaaa/portfolio.git'
     }
     
   ],
