@@ -15,7 +15,6 @@ const AboutCard: React.FC<AboutCardProps> = ({ about }) => {
         <p className="text-xl md:text-2xl text-black font-semibold mb-4 italic">
           {name}
         </p>
-        <p className="font-bold mb-4">{role}</p>
         <p className="text-sm mb-2">{email}</p>
         <p className="text-sm mb-2">{linkedin}</p>
         <p className="text-sm">{github}</p>
